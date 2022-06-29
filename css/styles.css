@@ -49,3 +49,9 @@ p {
   font-size: 2rem;
   line-height: 3.4rem;
 }
+
+/* Links */
+a {
+  text-decoration: none;
+  color: #000;
+}
