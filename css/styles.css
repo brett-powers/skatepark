@@ -85,3 +85,15 @@ a {
 .btn--secondary:hover {
   opacity: 0.9;
 }
+
+/* Icons */
+.icon {
+  margin: 2rem;
+  font-size: 25px;
+  display: inline;
+  transition: font-size 0.1s;
+}
+
+.icon:hover {
+  font-size: 30px;
+}
