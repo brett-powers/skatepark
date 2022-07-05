@@ -123,3 +123,39 @@ input {
   margin-right: 2rem;
   outline: none;
 }
+
+/* Navigation Bar */
+.navBar {
+  display: grid;
+  grid-template-columns: 1fr 0.5fr;
+  grid-template-rows: repeat(2, 40px);
+  align-items: center;
+  margin: 25px 20px;
+}
+
+.container-grid {
+  display: grid;
+}
+
+.nav__menu,
+.nav__icon-list {
+  justify-self: flex-end;
+}
+
+.nav__menu {
+  font-size: 20px;
+}
+
+.nav__description {
+  font-size: 1.5rem;
+}
+
+.nav__icon {
+  display: inline;
+  font-size: 25px;
+  margin-left: 20px;
+}
+
+.nav__icon:hover {
+  font-size: 30px;
+}
