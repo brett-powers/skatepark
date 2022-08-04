@@ -137,6 +137,14 @@ input {
   display: grid;
 }
 
+.nav__header {
+  max-width: 160px;
+}
+
+.nav__page-list {
+  display: none;
+}
+
 .nav__menu,
 .nav__icon-list {
   justify-self: flex-end;
@@ -158,4 +166,34 @@ input {
 
 .nav__icon:hover {
   font-size: 30px;
+}
+
+@media screen and (min-width: 600px) {
+  .nav__menu {
+    display: none;
+  }
+
+  .nav__page-list {
+    font-weight: 900;
+    display: flex;
+    flex-direction: row;
+    justify-self: flex-end;
+    font-size: 1.7rem;
+  }
+  .nav__page-list > li {
+    margin-left: 30px;
+  }
+
+  .nav__page-list > li:hover {
+    border-bottom: 1px solid #000;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .navBar {
+    margin: 35px 40px;
+  }
+
+  .nav__page-list {
+  }
 }
