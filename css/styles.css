@@ -1,6 +1,7 @@
 body {
   font-family: 'Red Hat Display', sans-serif;
   background: #b9fb9c;
+  height: 2000px;
 }
 
 html {
@@ -193,7 +194,25 @@ input {
   .navBar {
     margin: 35px 40px;
   }
+}
 
-  .nav__page-list {
+/* Hero */
+.hero {
+  margin-top: 150px;
+}
+
+.hero__header {
+  margin: 50px 20px;
+}
+
+img {
+  height: auto;
+  width: 100%;
+}
+
+@media screen and (min-width: 870px) {
+  .hero__header {
+    width: 800px;
+    margin-left: 100px;
   }
 }
